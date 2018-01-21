@@ -297,7 +297,7 @@ Feel free to contribute!
 | --------- | ------------------------ | ---------------------------------------- | -------- |
 | 2017. 6.  | KCC                      | [대화문맥을 이용한 심층학습 기반 다중-태그 화행분석 모델](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8852&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=&searchWord=) |          |
 | 2017. 10. | HCLT                     | CNN-LSTM 신경망을 이용한 발화 분석 모델               |          |
-| 2017. 10. | HCLT                     | CNN을 이용한 발화 주제 다중 분류                     | F1:98.73 |
+| 2017. 10. | HCLT                     | [CNN을 이용한 발화 주제 다중 분류](http://blog.naver.com/PostView.nhn?blogId=naver_search&logNo=221123989668) | F1:98.73 |
 
 
 
