@@ -19,19 +19,20 @@ Feel free to contribute!
 7. [Sentiment Analysis](#sentiment-analysis)
 8. [Coreference Resolution](#coreference-resolution)
 9. [Question Answering](#question-answering)
-10. [Dialogue Management](#dialogue-management)
-11. [Document Classification](#document-classification)
-12. [Document Summarization](#document-summarization)
-13. [Image Captioning](#image-captioning)
-14. [Keyword Extraction](#keyword-extraction)
-15. [Grammatical Error Correction](#grammatical-error-correction)
-16. [Relation Classification](#relation-classification)
-17. [Natural Language Generation](#natural-language-generation)
-18. [Speech Act Classification](#speech-act-classification)
-19. [Abusive Detection](#abusive-detection)
-20. [Transliteration](#transliteration)
-21. [Tools](#tools)
-22. [Dataset](#dataset)
+10. [Translation](#translation)
+11. [Dialogue Management](#dialogue-management)
+12. [Document Classification](#document-classification)
+13. [Document Summarization](#document-summarization)
+14. [Image Captioning](#image-captioning)
+15. [Keyword Extraction](#keyword-extraction)
+16. [Grammatical Error Correction](#grammatical-error-correction)
+17. [Relation Classification](#relation-classification)
+18. [Natural Language Generation](#natural-language-generation)
+19. [Speech Act Classification](#speech-act-classification)
+20. [Abusive Detection](#abusive-detection)
+21. [Transliteration](#transliteration)
+22. [Tools](#tools)
+23. [Dataset](#dataset)
 
 
 
@@ -70,7 +71,7 @@ Feel free to contribute!
 | Date      | Conference<br />/Journal       | Paper                                    | Metric                                   | Dataset   |
 | --------- | ------------------------------ | ---------------------------------------- | ---------------------------------------- | --------- |
 | 2008. 10. | HCLT                           | CRFs를 이용한 강건한 한국어 의존구조 분석                | UAS:87.30                                | 세종+KIB    |
-| 2018. 12. | 한국어정보학회                        | [SVM을 이용한 결정적 한국어 의존 구문분석](http://www.earticle.net/Article.aspx?sn=103226) | UAS:88.25                                | KIBS95    |
+| 2008. 12. | 한국어정보학회                        | [SVM을 이용한 결정적 한국어 의존 구문분석](http://www.earticle.net/Article.aspx?sn=103226) | UAS:88.25                                | KIBS95    |
 | 2010. 3.  | 한국시뮬레이션<br />학회논문지             | [다단계 구단위화를 이용한 고속 한국어 의존구조 분석](http://ocean.kisti.re.kr/downfile/volume/simul/SMROBX/2010/v19n1/SMROBX_2010_v19n1_103.pdf) | UAS:86.01                                |           |
 | 2011. 4.  | 정보과학회논문지                       | [자질 가중치의 기계학습에 기반한 한국어 의존파싱](http://ocean.kisti.re.kr/downfile/volume/kiss/JBGHF3/2011/v38n4/JBGHF3_2011_v38n4_214.pdf) | UAS:88.15                                | 세종        |
 | 2011      | ACL-WorkShop<br />(SPMRL 2011) | [Statistical Dependency Parsing in Korean:<br />From Corpus Generation To Automatic Parsing](http://www.aclweb.org/anthology/W11-3801) | UAS:85.47<br />LAS:83.74<br />FNC:94.57  | 세종        |
@@ -82,6 +83,7 @@ Feel free to contribute!
 |           | KCC                            | [Stack LSTM을 이용한 전이 기반 한국어 의존 파싱](www.dbpia.co.kr/Article/NODE07017626) |                                          |           |
 | 2016. 10. | HCLT                           | [Sequence-to-sequence 모델을 이용한<br />한국어 구구조 구문 분석](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo3YmJhYzdlZDdhODEwMTk3) | F1:89.03                                 | 세종        |
 | 2016. 10. | HCLT                           | [Stack LSTM 기반 한국어 의존 파싱을 위한<br />음절과 형태소의 결합 단어 표상 방법](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDpkNWY5NmJkMGRmYTFhOGE) | UAS/정답형태:93.65<br />LAS/정답형태:91.57<br />UAS/자동형태:90.44<br />LAS/자동형태:88.17 | 세종        |
+| 2016. 10. | HCLT                           | 의존 경로와 음절단위 의존 관계명 분포 기반의<br />Bidirectional LSTM CRFs를 이용한<br />한국어 의존 관계명 레이블링 | 의존관계F1:96.01                             | 세종        |
 | 2016. 12. | 정보과학회<br />동계학술대회              | [멀티 태스크 학습 기반<br />포인터 네트워크를 이용한 한국어 의존 구문 분석](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201612&num=6763&pg=52&seGubun=&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=&searchWord=) | UAS/자동형태:91.65<br />LAS/자동형태:89.34       | 세종        |
 | 2017. 6.  | KCC                            | [Deep Biaffine Attention을 이용한 한국어 의존 파싱](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8849&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=&searchWord=) | UAS/자동형태:91.78<br />LAS/자동형태:89.76       | 세종        |
 | 2017. 6.  | KCC                            | [전이기반 순환유닛을 이용한<br />SyntaxNet 기반 한국어 의존 파싱](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=9020&pg=1&seGubun=9&seGubun1=&SnxGubun=%C6%F7%BD%BA%C5%CD&searchBy=&searchWord=) | UAS:90.33<br />LAS:88.69                 | SPMRL '14 |
@@ -100,6 +102,7 @@ Feel free to contribute!
 | 2015. 12. | 정보과학회<br />동계학술대회        | [Word Embeddings 자질을 이용한<br />한국어 개체명 인식 및 분류](http://www.eiric.or.kr/KeyDocs/tmp/FN_1512160193649.pdf) | 89.03/ETRI-TV<br />89.98/ETRI-Sports<br />81.32/ETRI-IT | ETRI-15  |
 | 2016. 6.  | 정보과학회논문지                 | [Word Embedding 자질을 이용한<br />한국어 개체명 인식 및 분류](bozon.nlp.wo.tc/?f=158c7ea1f13842) | 89.81/ETRI-TV<br />90.04/ETRI-Sports     |          |
 | 2016. 6.  | KCC                      | [문자 기반 LSTM CRF를 이용한 개체명 인식](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201607&num=5313&pg=10&seGubun=&seGubun1=&SnxGubun=%C6%F7%BD%BA%C5%CD&searchBy=&searchWord=) | 86.53/ETRI                               | ETRI     |
+| 2016. 10. | HCLT                     | [문자 기반 LSTM-CRF 한국어<br />개체명 인식을 위한 사전 자질 활용](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoxMGQxYmVmMWJiMTc5ZWFh) | 89.34/ETRI                               | ETRI     |
 
 ### Other dataset
 
@@ -134,6 +137,7 @@ Feel free to contribute!
 |           |                                          | A study of Korean Semantic Role Labeling using Word sense |           |
 | 2016      | Advanced Science and<br />Technology Letters | [Korean Semantic Role Labeling<br />Using Korean PropBank Frame Files](http://onlinepresent.org/proceedings/vol142_2016/15.pdf) | ACC:90.00 |
 | 2016. 10. | HCLT                                     | [음절의 의미역 태그 분포를 이용한<br />Bidirectional LSTM CRFs 기반의 한국어 의미역 결정](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo1M2MzZGVjNDk3NjUzYzU4) | F1:66.13  |
+| 2016. 10. | HCLT                                     | [CRF를 이용한 복수 의미역 문제 해결](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo3YTdiZTcxY2IyNzBkOTMy) | F1:74.47  |
 | 2016. 12. | 정보과학회논문지                                 | [격틀 사전과 하위 범주 정보를 이용한 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07079316) | F1:78.47  |
 | 2017. 1.  | 정보과학회논문지                                 | [Stacked Bidirectional LSTM-CRFs를 이용한<br />한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07091258) | F1:78.57  |
 | 2017. 6.  | KCC                                      | [형태 의미 정보를 이용한 한국어 의미역 결정](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8851&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=Subject&searchWord=) | F1:77.36  |
@@ -167,6 +171,7 @@ Feel free to contribute!
 | 2014. 2.  | Journal of Korea<br />Multimedia Society | [한국어 트위터의 감정 분류를 위한<br />기계학습의 실증적 비교](https://www.google.co.kr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=8&ved=0ahUKEwjVisXXl-fYAhWGJZQKHWoGBpMQFghFMAc&url=http%3A%2F%2Fwww.kpubs.org%2Farticle%2FarticleDownload.kpubs%3FdownType%3Dpdf%26articleANo%3DMTMDCW_2014_v17n2_232&usg=AOvVaw06JI0iy1EOrJUsGlNMGWhZ) |            |        |
 | 2015. 12. | 정보과학회<br />동계학술대회                        | [RNN과 attention mechanism을 이용한 감성분석](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06602450) | ACC:80.41  | P/N    |
 | 2016. 5.  | 정보처리학회논문지                                | [감성 분석 및 감성 정보 부착 시스템 구현](http://210.101.116.28/W_files/kiss9/52809368_pv.pdf) | ACC:76.00  | P/N/N  |
+| 2016. 10. | HCLT                                     | [WPM(Word Piece Model)을 활용한 구글 플레이스토어 앱의 댓글 감정 분석 연구](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoyMDQ3ZDk4NzhlMzMzM2Rk) |            | P/N    |
 | 2017. 2.  |                                          | [의미 정보가 강화된<br />워드 임베딩을 통한 감성 분석](http://www.sersc.org/journals/AJMAHS/vol7_no2_2017/32.pdf) | ACC:82.30  |        |
 | 2017. 6.  | KCC                                      | [합성 곱 신경망을 이용한 한글 텍스트 감성 분류기 설계](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207332) | ACC:87.88  |        |
 | 2017. 6.  | KCC                                      | [Skip-Connected LSTM을 이용한 감성 분석](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207329) | ACC:81.47  |        |
@@ -206,7 +211,19 @@ Feel free to contribute!
 | 2016. 6.  | KCC                            | [질의응답 시스템 성능 개선을 위한 질의 트리플 확장](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07017707) |             |
 | 2016. 10. | HCLT                           | [한국어 질의응답 시스템을 위한 프레임 시멘틱스 기반 질의 의미 분석](http://semanticweb.kaist.ac.kr/home/images/c/c5/%ED%95%9C%EA%B5%AD%EC%96%B4_%EC%A7%88%EC%9D%98%EC%9D%91%EB%8B%B5_%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%84_%EC%9C%84%ED%95%9C_%ED%94%84%EB%A0%88%EC%9E%84_%EC%8B%9C%EB%A9%98%ED%8B%B1%EC%8A%A4_%EA%B8%B0%EB%B0%98_%EC%A7%88%EC%9D%98_%EC%9D%98%EB%AF%B8_%EB%B6%84%EC%84%9D.pdf) | F1:81.37    |
 | 2016. 10. | HCLT                           | [질의응답 시스템에서 형태소임베딩 모델과<br />GRU 인코더를 이용한 문장유사도 측정](http://koasas.kaist.ac.kr/bitstream/10203/219384/1/%EC%9D%B4%EB%8F%99%EA%B1%B4HCLT2016_%EC%A7%88%EC%9D%98%EC%9D%91%EB%8B%B5%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%97%90%EC%84%9C%20%ED%98%95%ED%83%9C%EC%86%8C%EC%9E%84%EB%B2%A0%EB%94%A9%20%EB%AA%A8%EB%8D%B8%EA%B3%BC%20GRU%20%EC%9D%B8%EC%BD%94%EB%8D%94%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EB%AC%B8%EC%9E%A5%EC%9C%A0%EC%82%AC%EB%8F%84%20%EC%B8%A1%EC%A0%95.pdf) | TOP5*:51.63 |
+| 2016. 10. | HCLT                           | [딥러닝과 정보검색을 결합한 질의응답 시스템](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoyZTRmMDQwODJkNzAwMzYx) |             |
 | 2017. 10. | HCLT                           | [심층적 의미 매칭을 이용한 cQA 시스템 질문 검색](http://blog.naver.com/PostView.nhn?blogId=naver_search&logNo=221123989668) | P@1:51.5    |
+
+
+
+## Translation
+
+| Date      | Conference<br />/Journal | Paper                                    | Metric    |
+| --------- | ------------------------ | ---------------------------------------- | --------- |
+| 2014. 8.  | 정보과학회논문지                 | [위키피디아로부터 한국어-영어 병렬 문장 추출](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02457679) |           |
+| 2016. 10. | HCLT                     | [극한 언어 환경에 대응 가능한 영한 자동 주소번역 시스템](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoyNTBlNTZiYmY1ZmQ3ODUx) | ACC:95.39 |
+
+
 
 
 
@@ -215,7 +232,8 @@ Feel free to contribute!
 | Date      | Conference<br />/Journal | Paper                                    | Metric                                   |
 | --------- | ------------------------ | ---------------------------------------- | ---------------------------------------- |
 | 2014      | 정보과학회<br />동계학술대회        | [Hidden Markov Model을 이용한 대화 의도 모델링](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06229011) |                                          |
-| 2016. 10. | HCLT                     | 격틀과 워드 임베딩을 활용한 유사도 기반 대화 모델링            | MRR:93.9                                 |
+| 2016. 10. | HCLT                     | [격틀과 워드 임베딩을 활용한 유사도 기반 대화 모델링](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo1ZDdjY2Y3NWU0ZmY2Yjhh) | MRR:93.9                                 |
+| 2016. 10. | HCLT                     | [Long Short-Term Memory를 이용한 통합 대화 분석](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoyZmNhNDRjODZlYmRjMWUy) | 감정ACC:58.08<br />화행ACC:82.60<br />서술자ACC:62.74 |
 | 2016. 12. | 정보과학회<br />동계학술대회        | [Konvbot: 한국어 대화 모델 - 아침, 가정환경을 중심으로](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07115970) |                                          |
 | 2017. 6.  | KCC                      | [합성곱 신경망을 이용한 음절 표상의 학습을 통한<br />대화 시스템의 사용자 발화 의도 분석](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207324) | ACC:92.84                                |
 | 2017. 6.  | KCC                      | [End-to-end learning을 이용한 한국어 단문 응답 시스템 개발](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207353) |                                          |
@@ -231,7 +249,8 @@ Feel free to contribute!
 | --------- | ------------------------ | ---------------------------------------- | -------- |
 | 2012. 4.  | 한국전자거래학회<br />춘계학술대회     | [청킹 기반 특징 추출을 통한 문서 분류 시스템의 성능 향상](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE01954443) |          |
 | 2016. 10. |                          | [문서 분류 알고리즘을 이용한 한국어 스팸 문서 분류 성능 비교](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE00768067) | F1:98.40 |
-| 2017. 6.  | KCC                      | [한국어자모단위기반의 Convolution Neural Network를 이용한 텍스트 분류](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8850&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=Subject&searchWord=) |          |
+| 2016. 10. | HCLT                     | [Doc2Vec을 활용한 CNN기반<br />한국어 신문기사 분류에 관한 연구](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo2OTE0MDMzNTVjYzA4MWRh) |          |
+| 2017. 6.  | KCC                      | [한국어자모단위기반의 Convolution Neural Network를<br />이용한 텍스트 분류](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8850&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=Subject&searchWord=) |          |
 | 2017. 10. | HCLT                     | [대규모 분류 체계에서 계층적 샘플링을 활용한 문서의 분류](http://blog.naver.com/PostView.nhn?blogId=naver_search&logNo=221123989668&redirect=Dlog&widgetTypeCall=true&directAccess=false) |          |
 
 
@@ -263,6 +282,7 @@ Feel free to contribute!
 | 2002. 10. | 정보과학회논문지                 | [주성분 분석을 이용한 문서 주제어 추출](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE00614779) |        |
 | 2010      | 한국정보통신<br />학회논문지        | [비감독 학습 기법에 의한 한국어의 키워드 추출](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02251588) | F1:65  |
 | 2015. 2.  | 한국컴퓨터정보<br />학회논문지       | [TF-IDF와 소설 텍스트의 구조를 이용한 주제어 추출 연구](http://insight.dbpia.co.kr/article/related.do?nodeId=NODE06533140) |        |
+| 2016. 10. | HCLT                     | [한글 문서의 단어 동시 출현 정보에 개선된<br />TextRank를 적용한 키워드 자동 추출 기법](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoxOGM5ODFhNTNkN2I4OTlk) |        |
 
 
 
@@ -293,11 +313,12 @@ Feel free to contribute!
 
 ## Speech Act Classification
 
-| Date      | Conference<br />/Journal | Paper                                    | Metric   |
-| --------- | ------------------------ | ---------------------------------------- | -------- |
-| 2017. 6.  | KCC                      | [대화문맥을 이용한 심층학습 기반 다중-태그 화행분석 모델](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8852&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=&searchWord=) |          |
-| 2017. 10. | HCLT                     | CNN-LSTM 신경망을 이용한 발화 분석 모델               |          |
-| 2017. 10. | HCLT                     | [CNN을 이용한 발화 주제 다중 분류](http://blog.naver.com/PostView.nhn?blogId=naver_search&logNo=221123989668) | F1:98.73 |
+| Date      | Conference<br />/Journal         | Paper                                    | Metric   |
+| --------- | -------------------------------- | ---------------------------------------- | -------- |
+| 2015. 1.  | Pattern Recognition<br />Letters | [New feature weighting approaches for speech-act classification](https://www.sciencedirect.com/science/article/pii/S0167865514002803) |          |
+| 2017. 6.  | KCC                              | [대화문맥을 이용한 심층학습 기반 다중-태그 화행분석 모델](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8852&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=&searchWord=) |          |
+| 2017. 10. | HCLT                             | CNN-LSTM 신경망을 이용한 발화 분석 모델               |          |
+| 2017. 10. | HCLT                             | [CNN을 이용한 발화 주제 다중 분류](http://blog.naver.com/PostView.nhn?blogId=naver_search&logNo=221123989668) | F1:98.73 |
 
 
 
