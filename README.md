@@ -156,7 +156,7 @@ Feel free to contribute!
 | 2013. 11. | 한국엔터테인먼트<br />산업학회 학술대회  | [기계 학습을 이용한 한글 텍스트 감정 분류](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02367979) | F1:72.00  | 9              |
 | 2014. 6.  | KCC                      | [기계 학습을 이용한 한글 텍스트 감정 분류 및 분석](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02444514) |           |                |
 | 2015. 10. | HCLT                     | 임베딩 자질을 이용한 대화의 감정 분류                    | ACC:72.89 | 9              |
-| 2016. 10. | HCLT                     | CNN-LSTM을 이용한 대화 문맥 반영과 감정 분류            | ACC:82.93 | 11             |
+| 2016. 10. | HCLT                     | [CNN-LSTM을 이용한 대화 문맥 반영과 감정 분류](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo0M2JmNDUwNWFlNmFiZTMy) | ACC:82.93 | 11             |
 
 
 
@@ -182,13 +182,15 @@ Feel free to contribute!
 
 | Date      | Conference<br />/Journal | Paper                                    | Metric                         |
 | --------- | ------------------------ | ---------------------------------------- | ------------------------------ |
+| 2014. 6.  | KCC                      | [SVM 기반의 Mention Pair Model을 이용한 한국어 상호참조해결](http://insight.dbpia.co.kr/article/related.do?nodeId=NODE02444109) | F1:61.67                       |
 | 2014. 11. | 정보과학회논문지                 | [Multi-pass Sieve를 이용한 한국어 상호참조해결](http://kiise.or.kr/e_journal/2014/11/JOK/pdf/15.pdf) | MUC:58.97<br />CoNLL:60.65     |
 | 2015. 4.  | 정보과학회논문지                 | [SVM 기반의 멘션 페어 모델을 이용한한국어 상호참조해결](http://kiise.or.kr/e_journal/2015/4/KTCP/pdf/09.pdf) | CEAFE-F1:61.75                 |
 | 2015. 6.  | KCC                      | [딥러닝을 이용한 가이드 멘션페어 한국어 상호참조해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06394188) |                                |
 | 2016. 2.  | 석사학위논문                   | [규칙과 기계학습을 이용한 한국어 상호참조해결](http://cs.kangwon.ac.kr/~parkce/seminar/CoreferenceResolutionForKorean_paper.pdf) |                                |
 | 2016. 6.  | KCC                      | [시브 자질 기반 랜덤 포레스트를 이용한<br />한국어 상호참조 해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07017614) | CoNLL:62.00                    |
 | 2016. 10. | HCLT                     | [포인터 네트워크를 이용한 멘션 탐지](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07226475) | 상호참조F1:52.69<br />멘션탐지F1:80.75 |
-| 2016. 11. | 정보처리학회논문지                | 랜덤 포레스트를 이용한 한국어 상호참조 해결                 |                                |
+| 2016. 11. | 정보처리학회논문지                | [랜덤 포레스트를 이용한 한국어 상호참조 해결](http://kiss.kstudy.com/thesis/thesis-view.asp?key=3483575) |                                |
+| 2016. 12. | 정보과학회<br />동계학술대회        | [계층적 포인터 네트워크를 이용한 상호참조해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07115923) | F1:72.43                       |
 | 2017. 5.  | 정보과학회논문지                 | [포인터 네트워크를 이용한<br />한국어 대명사 상호참조해결](http://kiise.or.kr/e_journal/2017/5/JOK/pdf/07.pdf) | 81.40                          |
 | 2017. 6.  | KCC                      | [Bi-directional Multiple Timescale GRU 기반<br />포인터 네트워크를 이용한 상호참조해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207325) | F1:71.05                       |
 | 2017. 6.  | KCC                      | [k-Max Pooling을 적용한<br />Cluster-Pair Encoder를 이용한 상호참조해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207318) | MUC:64.05<br />F1:54.76        |
@@ -288,10 +290,11 @@ Feel free to contribute!
 
 ## Grammatical Error Correction
 
-| Date     | Conference<br />/Journal | Paper                                    | Metric |
-| -------- | ------------------------ | ---------------------------------------- | ------ |
-| 2017. 6. | KCC                      | [말뭉치 확장 기법을 이용한 음절 단위 한국어 문장 교정 시스템](http://www.eiric.or.kr/community/m_post2.php?m=view&gubun=201704&num=9022&pg=1&seGubun=9&seGubun1=&SnxGubun=%C6%F7%BD%BA%C5%CD&searchBy=&searchWord=) |        |
-| 2017     |                          | [한글 편집거리 알고리즘을 이용한 한국어 철자오류 교정방법](http://kism.or.kr/file/memoir/6_1_2.pdf) |        |
+| Date     | Conference<br />/Journal | Paper                                    | Metric     |
+| -------- | ------------------------ | ---------------------------------------- | ---------- |
+| 2016. 6. | KCC                      | [딥러닝을 이용한 한국어 자동 띄어쓰기](http://insight.dbpia.co.kr/article/related.do?nodeId=NODE07017628) | 어절F1:92.32 |
+| 2017. 6. | KCC                      | [말뭉치 확장 기법을 이용한 음절 단위 한국어 문장 교정 시스템](http://www.eiric.or.kr/community/m_post2.php?m=view&gubun=201704&num=9022&pg=1&seGubun=9&seGubun1=&SnxGubun=%C6%F7%BD%BA%C5%CD&searchBy=&searchWord=) |            |
+| 2017     |                          | [한글 편집거리 알고리즘을 이용한 한국어 철자오류 교정방법](http://kism.or.kr/file/memoir/6_1_2.pdf) |            |
 
 
 
