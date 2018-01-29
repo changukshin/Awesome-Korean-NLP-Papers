@@ -9,34 +9,45 @@ Feel free to contribute!
 ## Index
 
 1. [How To Contribute](#how-to-contribute)
-2. [POS Tagging and Morpheme Analysis](#pos-tagging-and-morpheme-analysis)
-3. [Dependency Parsing](#dependency-parsing)
-4. [Named Entity Recognition](#named-entity-recognition)
+2. [Conference/Journal List](#conference/journal-list)
+3. [POS Tagging and Morpheme Analysis](#pos-tagging-and-morpheme-analysis)
+4. [Dependency Parsing](#dependency-parsing)
+5. [Named Entity Recognition](#named-entity-recognition)
    1. [ETRI dataset](#etri-dataset)
    2. [Other dataset](#other-dataset)
-5. [Semantic Role Labeling](#semantic-role-labeling)
-6. [Emotion Recognition](#emotion-recognition)
-7. [Sentiment Analysis](#sentiment-analysis)
-8. [Coreference Resolution](#coreference-resolution)
-9. [Question Answering](#question-answering)
-10. [Translation](#translation)
-11. [Dialogue Management](#dialogue-management)
-12. [Document Classification](#document-classification)
-13. [Document Summarization](#document-summarization)
-14. [Image Captioning](#image-captioning)
-15. [Keyword Extraction](#keyword-extraction)
-16. [Grammatical Error Correction](#grammatical-error-correction)
-17. [Relation Classification](#relation-classification)
-18. [Natural Language Generation](#natural-language-generation)
-19. [Speech Act Classification](#speech-act-classification)
-20. [Abusive Detection](#abusive-detection)
-21. [Transliteration](#transliteration)
-22. [Tools](#tools)
-23. [Dataset](#dataset)
+6. [Semantic Role Labeling](#semantic-role-labeling)
+7. [Emotion Recognition](#emotion-recognition)
+8. [Sentiment Analysis](#sentiment-analysis)
+9. [Coreference Resolution](#coreference-resolution)
+10. [Question Answering](#question-answering)
+11. [Translation](#translation)
+12. [Dialogue Management](#dialogue-management)
+13. [Document Classification](#document-classification)
+14. [Document Summarization](#document-summarization)
+15. [Image Captioning](#image-captioning)
+16. [Keyword Extraction](#keyword-extraction)
+17. [Grammatical Error Correction](#grammatical-error-correction)
+18. [Relation Classification](#relation-classification)
+19. [Natural Language Generation](#natural-language-generation)
+20. [Speech Act Classification](#speech-act-classification)
+21. [Abusive Detection](#abusive-detection)
+22. [Transliteration](#transliteration)
+23. [Document Similarity](#document-similarity)
+24. [Automatic Speech Recognition](#automatic-speech-recognition)
+25. [Tools](#tools)
+26. [Dataset](#dataset)
 
 
 
 ## How To Contribute
+
+
+
+## Conference/Journal List
+
+| Conference<br />/Journal | Date              | Web Page                                 | Paper List                               |
+| ------------------------ | ----------------- | ---------------------------------------- | ---------------------------------------- |
+| 2016 HCLT                | 2016. 10. 7. ~ 8. | [LINK](https://sites.google.com/site/2016hclt/home) | [LINK](https://sites.google.com/site/2016hclt/jalyosil) |
 
 
 
@@ -128,21 +139,22 @@ Feel free to contribute!
 
 ## Semantic Role Labeling
 
-| Date      | Conference<br />/Journal                 | Paper                                    | Metric    |
-| --------- | ---------------------------------------- | ---------------------------------------- | --------- |
-| 2015      | 정보과학회논문지                                 | [Structural SVM 기반의 한국어 의미역 결정](https://www.dbpia.co.kr/Journal/ArticleDetail/NODE06097446) | F1:76.04  |
-| 2015. 6.  | KCC                                      | [딥 러닝을 이용한 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06394187) | F1:76.96  |
-| 2015. 12. | 한국정보과학회<br />학술대회                        | [Bidirectional LSTM CRF를 이용한<br />End-To-End 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06602453) | F1:78.16  |
-| 2015      | 인지과학회                                    | [한국어 의미역 결정을 위한 Korean PropBank<br />확장 및 도메인 적응 기술 적용](www.dbpia.co.kr/Article/NODE06586490) |           |
-|           |                                          | A study of Korean Semantic Role Labeling using Word sense |           |
-| 2016      | Advanced Science and<br />Technology Letters | [Korean Semantic Role Labeling<br />Using Korean PropBank Frame Files](http://onlinepresent.org/proceedings/vol142_2016/15.pdf) | ACC:90.00 |
-| 2016. 10. | HCLT                                     | [음절의 의미역 태그 분포를 이용한<br />Bidirectional LSTM CRFs 기반의 한국어 의미역 결정](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo1M2MzZGVjNDk3NjUzYzU4) | F1:66.13  |
-| 2016. 10. | HCLT                                     | [CRF를 이용한 복수 의미역 문제 해결](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo3YTdiZTcxY2IyNzBkOTMy) | F1:74.47  |
-| 2016. 12. | 정보과학회논문지                                 | [격틀 사전과 하위 범주 정보를 이용한 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07079316) | F1:78.47  |
-| 2017. 1.  | 정보과학회논문지                                 | [Stacked Bidirectional LSTM-CRFs를 이용한<br />한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07091258) | F1:78.57  |
-| 2017. 6.  | KCC                                      | [형태 의미 정보를 이용한 한국어 의미역 결정](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8851&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=Subject&searchWord=) | F1:77.36  |
-| 2017. 6.  | KCC                                      | [문자 기반 LSTM CRF를 이용한 한국어 의미역 결정](https://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207765) |           |
-| 2017      | International Journal<br />of Database Theory<br />and Application | [A Study of Dictionary Based<br />Korean Semantic Role Labeling](http://www.sersc.org/journals/IJDTA/vol10_no7/6.pdf) |           |
+| Date      | Conference<br />/Journal                 | Paper                                    | Metric                           |
+| --------- | ---------------------------------------- | ---------------------------------------- | -------------------------------- |
+| 2015      | 정보과학회논문지                                 | [Structural SVM 기반의 한국어 의미역 결정](https://www.dbpia.co.kr/Journal/ArticleDetail/NODE06097446) | F1:76.04                         |
+| 2015. 6.  | KCC                                      | [딥 러닝을 이용한 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06394187) | F1:76.96                         |
+| 2015. 12. | 한국정보과학회<br />학술대회                        | [Bidirectional LSTM CRF를 이용한<br />End-To-End 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06602453) | F1:78.16                         |
+| 2015      | 인지과학회                                    | [한국어 의미역 결정을 위한 Korean PropBank<br />확장 및 도메인 적응 기술 적용](www.dbpia.co.kr/Article/NODE06586490) |                                  |
+|           |                                          | A study of Korean Semantic Role Labeling using Word sense |                                  |
+| 2016      | Advanced Science and<br />Technology Letters | [Korean Semantic Role Labeling<br />Using Korean PropBank Frame Files](http://onlinepresent.org/proceedings/vol142_2016/15.pdf) | ACC:90.00                        |
+| 2016. 10. | HCLT                                     | [음절의 의미역 태그 분포를 이용한<br />Bidirectional LSTM CRFs 기반의 한국어 의미역 결정](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo1M2MzZGVjNDk3NjUzYzU4) | F1:66.13                         |
+| 2016. 10. | HCLT                                     | [CRF를 이용한 복수 의미역 문제 해결](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo3YTdiZTcxY2IyNzBkOTMy) | F1:74.47                         |
+| 2016. 10. | HCLT                                     | [Input-feeding RNN Search 모델과 CopyNet을 이용한 한국어 의미역 결정](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDozYzc4MTdiOWQ0OGNkNWI3) | 어절AIC:71.58<br />Label AIC:79.42 |
+| 2016. 12. | 정보과학회논문지                                 | [격틀 사전과 하위 범주 정보를 이용한 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07079316) | F1:78.47                         |
+| 2017. 1.  | 정보과학회논문지                                 | [Stacked Bidirectional LSTM-CRFs를 이용한<br />한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07091258) | F1:78.57                         |
+| 2017. 6.  | KCC                                      | [형태 의미 정보를 이용한 한국어 의미역 결정](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8851&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=Subject&searchWord=) | F1:77.36                         |
+| 2017. 6.  | KCC                                      | [문자 기반 LSTM CRF를 이용한 한국어 의미역 결정](https://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207765) |                                  |
+| 2017      | International Journal<br />of Database Theory<br />and Application | [A Study of Dictionary Based<br />Korean Semantic Role Labeling](http://www.sersc.org/journals/IJDTA/vol10_no7/6.pdf) |                                  |
 
 
 
@@ -172,6 +184,8 @@ Feel free to contribute!
 | 2015. 12. | 정보과학회<br />동계학술대회                        | [RNN과 attention mechanism을 이용한 감성분석](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06602450) | ACC:80.41  | P/N    |
 | 2016. 5.  | 정보처리학회논문지                                | [감성 분석 및 감성 정보 부착 시스템 구현](http://210.101.116.28/W_files/kiss9/52809368_pv.pdf) | ACC:76.00  | P/N/N  |
 | 2016. 10. | HCLT                                     | [WPM(Word Piece Model)을 활용한 구글 플레이스토어 앱의 댓글 감정 분석 연구](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoyMDQ3ZDk4NzhlMzMzM2Rk) |            | P/N    |
+| 2016. 10. | HCLT                                     | [영어 SentiWordNet을 이용하여 구축된 한국어 감성어휘사전의 성능과 한계 연구](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo1MjEzZTkyYWRkNmFmZjI0) |            |        |
+| 2016. 10. | HCLT                                     | [MUSE 감성주석코퍼스를 활용한 문장 극성과 키워드 극성간의 불일치 현상에 대한 분석](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoyOTZmMDViMGEzODg1ZDBl) |            |        |
 | 2017. 2.  |                                          | [의미 정보가 강화된<br />워드 임베딩을 통한 감성 분석](http://www.sersc.org/journals/AJMAHS/vol7_no2_2017/32.pdf) | ACC:82.30  |        |
 | 2017. 6.  | KCC                                      | [합성 곱 신경망을 이용한 한글 텍스트 감성 분류기 설계](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207332) | ACC:87.88  |        |
 | 2017. 6.  | KCC                                      | [Skip-Connected LSTM을 이용한 감성 분석](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207329) | ACC:81.47  |        |
@@ -290,11 +304,12 @@ Feel free to contribute!
 
 ## Grammatical Error Correction
 
-| Date     | Conference<br />/Journal | Paper                                    | Metric     |
-| -------- | ------------------------ | ---------------------------------------- | ---------- |
-| 2016. 6. | KCC                      | [딥러닝을 이용한 한국어 자동 띄어쓰기](http://insight.dbpia.co.kr/article/related.do?nodeId=NODE07017628) | 어절F1:92.32 |
-| 2017. 6. | KCC                      | [말뭉치 확장 기법을 이용한 음절 단위 한국어 문장 교정 시스템](http://www.eiric.or.kr/community/m_post2.php?m=view&gubun=201704&num=9022&pg=1&seGubun=9&seGubun1=&SnxGubun=%C6%F7%BD%BA%C5%CD&searchBy=&searchWord=) |            |
-| 2017     |                          | [한글 편집거리 알고리즘을 이용한 한국어 철자오류 교정방법](http://kism.or.kr/file/memoir/6_1_2.pdf) |            |
+| Date      | Conference<br />/Journal | Paper                                    | Metric     |
+| --------- | ------------------------ | ---------------------------------------- | ---------- |
+| 2016. 6.  | KCC                      | [딥러닝을 이용한 한국어 자동 띄어쓰기](http://insight.dbpia.co.kr/article/related.do?nodeId=NODE07017628) | 어절F1:92.32 |
+| 2016. 10. | HCLT                     | Default 연산 알고리즘을 적용한 통계적 문맥의존 철자오류 교정 기법의 성능 향상 |            |
+| 2017. 6.  | KCC                      | [말뭉치 확장 기법을 이용한 음절 단위 한국어 문장 교정 시스템](http://www.eiric.or.kr/community/m_post2.php?m=view&gubun=201704&num=9022&pg=1&seGubun=9&seGubun1=&SnxGubun=%C6%F7%BD%BA%C5%CD&searchBy=&searchWord=) |            |
+| 2017      |                          | [한글 편집거리 알고리즘을 이용한 한국어 철자오류 교정방법](http://kism.or.kr/file/memoir/6_1_2.pdf) |            |
 
 
 
@@ -338,6 +353,24 @@ Feel free to contribute!
 | Date      | Conference<br />/Journal | Paper                                    | Metric   |
 | --------- | ------------------------ | ---------------------------------------- | -------- |
 | 2017. 10. | HCLT                     | [Distance LSTM-CNN with Layer Normalization을 이용한음차 표기 대역 쌍 판별](http://blog.naver.com/PostView.nhn?blogId=naver_search&logNo=221123989668) | F1:89.70 |
+
+
+
+## Document Similarity
+
+| Date      | Conference<br />/Journal | Paper                                    | Metric |
+| --------- | ------------------------ | ---------------------------------------- | ------ |
+| 2016. 10. | HCLT                     | [문서의 공기관계를 이용하여 국가 R&D 보고서간 유사도 계산](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoxNDg5YjhlZmJjMzEyNzNk) |        |
+
+
+
+## Automatic Speech Recognition
+
+| Date      | Conference<br />/Journal | Paper                                    | Metric   |
+| --------- | ------------------------ | ---------------------------------------- | -------- |
+| 2016. 10. | HCLT                     | [음성 인식 오류 수정을 위한 Trie 기반 사전을 이용한 Guided Sequence Generation](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoyNGMxYzExM2VmN2YzNWE5) | WER:7.05 |
+
+
 
 
 
