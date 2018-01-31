@@ -9,7 +9,7 @@ Feel free to contribute!
 ## Index
 
 1. [How To Contribute](#how-to-contribute)
-2. [Conference&Journal List](#conference/journal-list)
+2. [Conference&Journal List](#conference&journal-list)
 3. [POS Tagging and Morpheme Analysis](#pos-tagging-and-morpheme-analysis)
 4. [Dependency Parsing](#dependency-parsing)
 5. [Named Entity Recognition](#named-entity-recognition)
