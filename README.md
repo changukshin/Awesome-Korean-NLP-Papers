@@ -41,6 +41,20 @@ Feel free to contribute!
 
 ## How To Contribute
 
+Feel free to
+
+* Add/Modify wrong or blank informations of papers.
+* Add/Modify wrong or blank informations of conferences.
+
+And you can open issue
+
+* When a paper you want to find is missing.
+* Whenever else you want to contribute.
+
+Please consider sending PR first. It is a great help to keep this list up-to-date.
+
+Please, do not hesitate to create an issue. It always helps this repository to be informative and healthy.
+
 
 
 ## Conference and Journal List
@@ -127,6 +141,7 @@ Feel free to contribute!
 | 2016. 2.  | 정보과학회논문지                 | [원거리 감독과 능동 배깅을 이용한 개체명 인식](http://kiise.or.kr/e_journal/2016/2/JOK/pdf/15.pdf) | 76.42                 | (11)                                     |
 | 2016. 9.  | 정보처리학회논문지                | [조건부 랜덤 필드를 이용한 특허 문서의 개체명 인식](http://society.kisti.re.kr/sv/SV_svpsbs03V.do?method=download&cn1=JAKO201630765902875) | 65.40                 | (5B+5I+O)                                |
 | 2016. 10. | HCLT                     | [품사 임베딩과 음절 단위 개체명 분포 기반의<br />Bidirectional LSTM CRFs를 이용한 개체명 인식](https://docs.google.com/viewer?(%EC%9C%A0%ED%99%8D%EC%97%B0,%20%EA%B3%A0%EC%98%81%EC%A4%91)%20a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo1NjdmNjFlMjJhYjQ1OWI2) | 79.52                 |                                          |
+| 2016. 10. | HCLT                     | [의생명 분야의 개체명 인식에서 순환형 신경망과 조건적 임의 필드의 성능 비교](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDozZjIzNDZlY2UzODIzOTBl) | 72.82                 |                                          |
 | 2016. 12. | 정보과학회<br />동계학술대회        | [자소 편집거리를 이용한 한글 트위터 개체명 인식](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07115922) | 83.51                 |                                          |
 | 2016. 12. | 정보과학회<br />동계학술대회        | [식품 도메인 개체명 인식을 위한 문자 기반 LSTM CRF](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07115928) |                       |                                          |
 | 2017. 3.  | 정보과학회논문지                 | [Bidirectional LSTM CRF 기반의<br />개체명 인식을 위한 단어 표상의 확장](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07121169) | 80.68                 |                                          |
@@ -323,9 +338,10 @@ Feel free to contribute!
 
 ## Natural Language Generation
 
-| Date     | Conference<br />/Journal | Paper                                    | Metric |
-| -------- | ------------------------ | ---------------------------------------- | ------ |
-| 2017. 6. | KCC                      | [Sequence-to-sequence 모델을 이용한 자연어생성](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=9027&pg=1&seGubun=9&seGubun1=&SnxGubun=%C6%F7%BD%BA%C5%CD&searchBy=&searchWord=) |        |
+| Date      | Conference<br />/Journal | Paper                                    | Metric |
+| --------- | ------------------------ | ---------------------------------------- | ------ |
+| 2016. 10. | HCLT                     | [온톨로지 기반의 문서생성 시스템](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoyZjJhYWI1NWM4YjZlZGNh) |        |
+| 2017. 6.  | KCC                      | [Sequence-to-sequence 모델을 이용한 자연어생성](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=9027&pg=1&seGubun=9&seGubun1=&SnxGubun=%C6%F7%BD%BA%C5%CD&searchBy=&searchWord=) |        |
 
 
 
