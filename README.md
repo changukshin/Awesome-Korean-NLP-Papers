@@ -165,6 +165,7 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 | 2016. 10. | HCLT                                     | [음절의 의미역 태그 분포를 이용한<br />Bidirectional LSTM CRFs 기반의 한국어 의미역 결정](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo1M2MzZGVjNDk3NjUzYzU4) | F1:66.13                         |
 | 2016. 10. | HCLT                                     | [CRF를 이용한 복수 의미역 문제 해결](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo3YTdiZTcxY2IyNzBkOTMy) | F1:74.47                         |
 | 2016. 10. | HCLT                                     | [Input-feeding RNN Search 모델과 CopyNet을 이용한 한국어 의미역 결정](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDozYzc4MTdiOWQ0OGNkNWI3) | 어절AIC:71.58<br />Label AIC:79.42 |
+| 2016. 10. | HCLT                                     | [베이지안 모형 기반 한국어 의미역 유도](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo2Yjg1M2U2NjZkYzE4NjNj) | F1*:83.26                        |
 | 2016. 12. | 정보과학회논문지                                 | [격틀 사전과 하위 범주 정보를 이용한 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07079316) | F1:78.47                         |
 | 2017. 1.  | 정보과학회논문지                                 | [Stacked Bidirectional LSTM-CRFs를 이용한<br />한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07091258) | F1:78.57                         |
 | 2017. 6.  | KCC                                      | [형태 의미 정보를 이용한 한국어 의미역 결정](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8851&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=Subject&searchWord=) | F1:77.36                         |
@@ -249,10 +250,11 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 
 ## Translation
 
-| Date      | Conference<br />/Journal | Paper                                    | Metric    |
-| --------- | ------------------------ | ---------------------------------------- | --------- |
-| 2014. 8.  | 정보과학회논문지                 | [위키피디아로부터 한국어-영어 병렬 문장 추출](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02457679) |           |
-| 2016. 10. | HCLT                     | [극한 언어 환경에 대응 가능한 영한 자동 주소번역 시스템](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoyNTBlNTZiYmY1ZmQ3ODUx) | ACC:95.39 |
+| Date      | Conference<br />/Journal | Paper                                    | Metric     |
+| --------- | ------------------------ | ---------------------------------------- | ---------- |
+| 2014. 8.  | 정보과학회논문지                 | [위키피디아로부터 한국어-영어 병렬 문장 추출](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02457679) |            |
+| 2016. 10. | HCLT                     | [극한 언어 환경에 대응 가능한 영한 자동 주소번역 시스템](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoyNTBlNTZiYmY1ZmQ3ODUx) | ACC:95.39  |
+| 2016. 10. | HCLT                     | [말뭉치 자동 확장을 통한 SMT 성능 향상에 대한 연구](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo0NTEwMmYxYjI1NWI0ZTli) | BLEU:24.26 |
 
 
 
