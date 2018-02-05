@@ -34,8 +34,9 @@ Feel free to contribute!
 22. [Transliteration](#transliteration)
 23. [Document Similarity](#document-similarity)
 24. [Automatic Speech Recognition](#automatic-speech-recognition)
-25. [Tools](#tools)
-26. [Dataset](#dataset)
+25. [Word Sense Disambiguation](#word-sense-disambiguation)
+26. [Tools](#tools)
+27. [Dataset](#dataset)
 
 
 
@@ -171,6 +172,7 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 | 2017. 6.  | KCC                                      | [형태 의미 정보를 이용한 한국어 의미역 결정](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8851&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=Subject&searchWord=) | F1:77.36                         |
 | 2017. 6.  | KCC                                      | [문자 기반 LSTM CRF를 이용한 한국어 의미역 결정](https://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207765) |                                  |
 | 2017      | International Journal<br />of Database Theory<br />and Application | [A Study of Dictionary Based<br />Korean Semantic Role Labeling](http://www.sersc.org/journals/IJDTA/vol10_no7/6.pdf) |                                  |
+| 2017. 10. | HCLT                                     | Highway BiLSTM-CRFs 모델을 이용한<br />한국어 의미역 결정 |                                  |
 
 
 
@@ -389,6 +391,12 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 | 2016. 10. | HCLT                     | [음성 인식 오류 수정을 위한 Trie 기반 사전을 이용한 Guided Sequence Generation](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDoyNGMxYzExM2VmN2YzNWE5) | WER:7.05 |
 
 
+
+## Word Sense Disambiguation
+
+| Date      | Conference<br />/Journal | Paper                                    | Metric |
+| --------- | ------------------------ | ---------------------------------------- | ------ |
+| 2017. 10. | HCLT                     | [코어넷을 활용한 비지도 한국어 어의 중의성 해소](http://semanticweb.kaist.ac.kr/home/images/3/33/%EC%BD%94%EC%96%B4%EB%84%B7%EC%9D%84_%ED%99%9C%EC%9A%A9%ED%95%9C_%EB%B9%84%EC%A7%80%EB%8F%84_%ED%95%9C%EA%B5%AD%EC%96%B4_%EC%96%B4%EC%9D%98_%EC%A4%91%EC%9D%98%EC%84%B1_%ED%95%B4%EC%86%8C.pdf) |        |
 
 
 
