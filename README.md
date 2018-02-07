@@ -60,9 +60,11 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 
 ## Conference and Journal List
 
-| Conference<br />/Journal | Date              | Web Page                                 | Paper List                               |
-| ------------------------ | ----------------- | ---------------------------------------- | ---------------------------------------- |
-| 2016 HCLT                | 2016. 10. 7. ~ 8. | [LINK](https://sites.google.com/site/2016hclt/home) | [LINK](https://sites.google.com/site/2016hclt/jalyosil) |
+| Conference<br />/Journal | Date                | Web Page                                 | Paper List                               |
+| ------------------------ | ------------------- | ---------------------------------------- | ---------------------------------------- |
+| 2015 정보과학회<br />동계학술대회   | 2015. 12. 17. ~ 18. |                                          | [LINK](http://www.kiise.or.kr/conference02/data/pb/2015WC.pdf) |
+| 2016 HCLT                | 2016. 10. 7. ~ 8.   | [LINK](https://sites.google.com/site/2016hclt/home) | [LINK](https://sites.google.com/site/2016hclt/jalyosil) |
+| 2017 HCLT                | 2017. 10. 13. ~ 14. | [LINK](https://sites.google.com/view/hclt2017/) | [LINK](https://sites.google.com/view/hclt2017/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8?authuser=0) |
 
 
 
@@ -105,6 +107,7 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 | 2014. 1.  | 정보과학회논문지                       | [지배소 후위 집합을 이용한<br />한국어 의존 구문 분석 알고리즘](http://kiise.or.kr/e_journal/2014/1/SA/pdf/09.pdf) | UAS:87.52                                | 세종        |
 |           |                                | 신경망과 제약만족 알고리즘을 이용한 한국어 구문분석             |                                          |           |
 | 2015. 8.  | 정보과학회논문지                       | [순환 신경망을 이용한 전이 기반 한국어 의존 구문 분석](http://kiise.or.kr/e_journal/2015/8/KTCP/pdf/09.pdf) | UAS:90.33                                | KIBS      |
+| 2015. 12. | 정보과학회<br />동계학술대회              | [통계 정보를 이용한 구문분석 트리 후보의 순위화 방법](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06602443) |                                          |           |
 | 2016. 6.  | APIC-IST                       | [Improving Korean Dependency Parsing<br />performance using predicate-argument features](bozon.nlp.wo.tc/?f=158c7ea1f1d480) | UAS/자동형태:84.39<br />LAS/자동형태:81.91       | 세종        |
 |           | KCC                            | [Stack LSTM을 이용한 전이 기반 한국어 의존 파싱](www.dbpia.co.kr/Article/NODE07017626) |                                          |           |
 | 2016. 10. | HCLT                           | [Sequence-to-sequence 모델을 이용한<br />한국어 구구조 구문 분석](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo3YmJhYzdlZDdhODEwMTk3) | F1:89.03                                 | 세종        |
@@ -304,6 +307,7 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 
 | Date      | Conference<br />/Journal | Paper                                    |
 | --------- | ------------------------ | ---------------------------------------- |
+| 2015. 12. | 정보과학회<br />동계학술대회        | Recurrent Neural Network를 이용한 이미지 캡션 생성  |
 | 2016. 8.  | 정보과학회논문지                 | [Recurrent Neural Network를 이용한 이미지 캡션 생성](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06737196) |
 | 2016. 12. | 정보과학회<br />동계학술대회        | [딥러닝을 이용한 한국어 이미지 캡션 생성](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201612&num=6779&pg=1&seGubun=13&seGubun1=&SnxGubun=%C6%F7%BD%BA%C5%CD&searchBy=&searchWord=) |
 | 2017. 10. | HCLT                     | LSTM을 이용한 한국어 이미지 캡션 생성                  |
