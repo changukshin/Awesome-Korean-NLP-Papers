@@ -276,7 +276,7 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 | 2017. 6.  | KCC                      | [합성곱 신경망을 이용한 음절 표상의 학습을 통한<br />대화 시스템의 사용자 발화 의도 분석](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207324) | ACC:92.84                                |
 | 2017. 6.  | KCC                      | [End-to-end learning을 이용한 한국어 단문 응답 시스템 개발](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207353) |                                          |
 | 2017. 8.  | 컴퓨터교육학회                  | Hybrid Code Network를 이용한 한국어 식당 예약 시스템 모델 |                                          |
-| 2017. 10. | HCLT                     | MTRNN을 이용한 한국어 대화 모델 생성                  | BLEU4:0.22                               |
+| 2017. 10. | HCLT                     | [MTRNN을 이용한 한국어 대화 모델 생성](http://bozon.nlp.wo.tc/?f=159e856b9eea81)                  | BLEU4:0.22                               |
 | 2017. 10. | HCLT                     | 도메인 특정 지식을 결합한 End-to-End Learning 방식의<br />한국어 식당 예약 대화 시스템 모델 개발 | Per Response:0.95<br />Per Dialogue:0.64 |
 
 
