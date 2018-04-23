@@ -73,7 +73,7 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 | Date      | Conference<br />/Journal | Paper                                    | Metric          | Dataset |
 | --------- | ------------------------ | ---------------------------------------- | --------------- | ------- |
 | 2012. 5.  | 정보과학회논문지                 | [기분석 부분 어절 사전을 활용한<br />한국어 형태소 분석기](http://kiise.or.kr/e_journal/2012/5/SA/pdf/09.pdf) | ACC:95.84       | 세종      |
-| 2012. 10. | HCLT                     | CRF에 기반한 한국어 형태소 분할 및 품사 태깅              |                 |         |
+| 2012. 10. | HCLT                     | [CRF에 기반한 한국어 형태소 분할 및 품사 태깅](http://ocean.kisti.re.kr/IS_mvpopo213L.do?ResultTotalCNT=48&pageNo=1&pageSize=10&method=view&acnCn1=&poid=sighlt&kojic=OOGHAK&sVnc=y2012m10a&id=2&setId=&iTableId=&iDocId=&sFree=&pQuery=%28kojic%3AOOGHAK%29+AND+%28voliss_ctrl_no%3Ay2012m10a%29)              | 형태소 분할F1:98.42 <br /> 형태소 태깅ACC:98.11               |         |
 | 2013. 1.  | 정보과학회논문지                 | [음절 단위의 한국어 품사 태깅에서 원형 복원](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02112476) |                 |         |
 | 2013. 10. | HCLT                     | [CRF기반  한국어 형태소 분할 및 품사 태깅에서<br />두 단계 복합형태소 분해 방법](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwic8aKRr6bSAhVHgbwKHRNDB2gQFggbMAA&url=http%3A%2F%2Fsociety.kisti.re.kr%2Fsv%2FSV_svpsbs03V.do%3Fmethod%3Ddownload%26cn1%3DCFKO201308355727353&usg=AFQjCNFsEWXKlh3zbyqoCCB6tbUPH_mJ4w&sig2=IXIrM4863a3bkfrbVm2DDw) | F1:97.23        | 세종      |
 | 2013. 10. | HCLT                     | Semi-CRF or Linear-Chain CRF?<br />한국어 형태소 분할 및 품사 태깅을 위한 결합 모델 비교 |                 |         |
