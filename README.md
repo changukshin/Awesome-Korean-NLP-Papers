@@ -73,13 +73,12 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 | Date      | Conference<br />/Journal | Paper                                    | Metric          | Dataset |
 | --------- | ------------------------ | ---------------------------------------- | --------------- | ------- |
 | 2012. 5.  | 정보과학회논문지                 | [기분석 부분 어절 사전을 활용한<br />한국어 형태소 분석기](http://kiise.or.kr/e_journal/2012/5/SA/pdf/09.pdf) | ACC:95.84       | 세종      |
-| 2012. 10. | HCLT                     | CRF에 기반한 한국어 형태소 분할 및 품사 태깅              |                 |         |
+| 2012. 10. | HCLT                     | [CRF에 기반한 한국어 형태소 분할 및 품사 태깅](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwic8aKRr6bSAhVHgbwKHRNDB2gQFggmMAI&url=http%3A%2F%2Fsociety.kisti.re.kr%2Fsv%2FSV_svpsbs03V.do%3Fmethod%3Ddownload%26cn1%3DCFKO201208355727429&usg=AFQjCNH2oH3rtZ_20m6BivXaF7szGR5jaw&sig2=g15iYcQoSP6DX0ccdCxiew)              | F1:96.19                | 세종         |
 | 2013. 1.  | 정보과학회논문지                 | [음절 단위의 한국어 품사 태깅에서 원형 복원](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02112476) |                 |         |
 | 2013. 10. | HCLT                     | [CRF기반  한국어 형태소 분할 및 품사 태깅에서<br />두 단계 복합형태소 분해 방법](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwic8aKRr6bSAhVHgbwKHRNDB2gQFggbMAA&url=http%3A%2F%2Fsociety.kisti.re.kr%2Fsv%2FSV_svpsbs03V.do%3Fmethod%3Ddownload%26cn1%3DCFKO201308355727353&usg=AFQjCNFsEWXKlh3zbyqoCCB6tbUPH_mJ4w&sig2=IXIrM4863a3bkfrbVm2DDw) | F1:97.23        | 세종      |
 | 2013. 10. | HCLT                     | Semi-CRF or Linear-Chain CRF?<br />한국어 형태소 분할 및 품사 태깅을 위한 결합 모델 비교 |                 |         |
 | 2013. 10. | 정보과학회논문지                 | [품사 태깅 말뭉치에서 추출한 n-gram을 이용한<br />음절 단위의 한국어 형태소 분석](http://kiise.or.kr/e_journal/2013/12/sa/pdf/13.pdf) |                 | 코난      |
 | 2013. 12. |                          | [Structural SVM을 이용한<br />한국어 띄어쓰기 및 품사 태깅 결합 모델](http://kiise.or.kr/e_journal/2013/12/sa/pdf/09.pdf) | F1:98.03        |         |
-|           |                          | [CRF에 기반한 한국어 형태소 분할 및 품사 태깅](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwic8aKRr6bSAhVHgbwKHRNDB2gQFggmMAI&url=http%3A%2F%2Fsociety.kisti.re.kr%2Fsv%2FSV_svpsbs03V.do%3Fmethod%3Ddownload%26cn1%3DCFKO201208355727429&usg=AFQjCNH2oH3rtZ_20m6BivXaF7szGR5jaw&sig2=g15iYcQoSP6DX0ccdCxiew) | F1:96.19        | 세종      |
 | 2014.     | 정보과학회논문지                 | [래티스상의 구조적 분류에 기반한<br />한국어 형태소 분석 및 품사 태깅](http://kiise.or.kr/e_journal/2014/7/SA/pdf/07.pdf) | F1:94.07        | ETRI    |
 | 2014. 6.  | KCC                      | [구기반 통계적 모델을 이용한 한국어 형태소 분할 및 품사 태깅](https://www.dbpia.co.kr/Article/NODE02444100) |                 |         |
 | 2014. 12. | 정보과학회<br />동계학술대회        | [딥러닝에 기반한 한국어 품사 태깅](www.dbpia.co.kr/Article/NODE06228668) |                 |         |
