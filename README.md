@@ -187,7 +187,7 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 | 2013. 6.  | 정보과학회논문지                 | [한글 마이크로블로그 텍스트의<br />감정 분류 및 분석](http://kiise.or.kr/e_journal/2013/6/DB/pdf/02.pdf) |           |                |
 | 2013. 11. | 한국엔터테인먼트<br />산업학회 학술대회  | [기계 학습을 이용한 한글 텍스트 감정 분류](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02367979) | F1:72.00  | 9              |
 | 2014. 6.  | KCC                      | [기계 학습을 이용한 한글 텍스트 감정 분류 및 분석](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02444514) |           |                |
-| 2015. 10. | HCLT                     | 임베딩 자질을 이용한 대화의 감정 분류                    | ACC:72.89 | 9              |
+| 2015. 10. | HCLT                     | [임베딩 자질을 이용한 대화의 감정 분류](http://ocean.kisti.re.kr/IS_mvpopo213L.do?ResultTotalCNT=55&pageNo=2&pageSize=10&method=view&acnCn1=&poid=sighlt&kojic=OOGHAK&sVnc=y2015m10a&id=9&setId=&iTableId=&iDocId=&sFree=&pQuery=%28kojic%3AOOGHAK%29+AND+%28voliss_ctrl_no%3Ay2015m10a%29)                    | ACC:72.89 | 9              |
 | 2016. 10. | HCLT                     | [CNN-LSTM을 이용한 대화 문맥 반영과 감정 분류](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo0M2JmNDUwNWFlNmFiZTMy) | ACC:82.93 | 11             |
 
 
