@@ -354,12 +354,13 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 
 ## Speech Act Classification
 
-| Date      | Conference<br />/Journal         | Paper                                    | Metric   |
-| --------- | -------------------------------- | ---------------------------------------- | -------- |
-| 2015. 1.  | Pattern Recognition<br />Letters | [New feature weighting approaches for speech-act classification](https://www.sciencedirect.com/science/article/pii/S0167865514002803) |          |
-| 2017. 6.  | KCC                              | [대화문맥을 이용한 심층학습 기반 다중-태그 화행분석 모델](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8852&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=&searchWord=) |          |
-| 2017. 10. | HCLT                             | CNN-LSTM 신경망을 이용한 발화 분석 모델               |          |
-| 2017. 10. | HCLT                             | [CNN을 이용한 발화 주제 다중 분류](http://blog.naver.com/PostView.nhn?blogId=naver_search&logNo=221123989668) | F1:98.73 |
+| Date      | Conference<br />/Journal                     | Paper                                                        | Metric   |
+| --------- | -------------------------------------------- | ------------------------------------------------------------ | -------- |
+| 2011. 12. | Journal of Computing Science and Engineering | Review of Korean Speech Act Classification: Machine Learning Methods |          |
+| 2015. 1.  | Pattern Recognition<br />Letters             | [New feature weighting approaches for speech-act classification](https://www.sciencedirect.com/science/article/pii/S0167865514002803) |          |
+| 2017. 6.  | KCC                                          | [대화문맥을 이용한 심층학습 기반 다중-태그 화행분석 모델](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8852&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=&searchWord=) |          |
+| 2017. 10. | HCLT                                         | CNN-LSTM 신경망을 이용한 발화 분석 모델                      |          |
+| 2017. 10. | HCLT                                         | [CNN을 이용한 발화 주제 다중 분류](http://blog.naver.com/PostView.nhn?blogId=naver_search&logNo=221123989668) | F1:98.73 |
 
 
 
