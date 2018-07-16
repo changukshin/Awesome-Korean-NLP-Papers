@@ -177,7 +177,7 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 | 2017. 6.  | KCC                                      | [형태 의미 정보를 이용한 한국어 의미역 결정](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8851&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=Subject&searchWord=) | F1:77.36                         |
 | 2017. 6.  | KCC                                      | [문자 기반 LSTM CRF를 이용한 한국어 의미역 결정](https://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207765) |                                  |
 | 2017      | International Journal<br />of Database Theory<br />and Application | [A Study of Dictionary Based<br />Korean Semantic Role Labeling](http://www.sersc.org/journals/IJDTA/vol10_no7/6.pdf) |                                  |
-| 2017. 10. | HCLT                                     | Highway BiLSTM-CRFs 모델을 이용한<br />한국어 의미역 결정 |                                  |
+| 2017. 10. | HCLT                                     | [Highway BiLSTM-CRFs 모델을 이용한<br />한국어 의미역 결정](http://ocean.kisti.re.kr/IS_mvpopo213L.do?ResultTotalCNT=72&pageNo=3&pageSize=10&method=view&acnCn1=&poid=sighlt&kojic=OOGHAK&sVnc=y2017m10a&id=9&setId=&iTableId=&iDocId=&sFree=&pQuery=%28kojic%3AOOGHAK%29+AND+%28voliss_ctrl_no%3Ay2017m10a%29) |                                  |
 
 
 
@@ -356,6 +356,7 @@ Please, do not hesitate to create an issue. It always helps this repository to b
 
 
 ## Speech Act Classification
+
 
 | Date      | Conference<br />/Journal                     | Paper                                                        | Metric   |
 | --------- | -------------------------------------------- | ------------------------------------------------------------ | -------- |
