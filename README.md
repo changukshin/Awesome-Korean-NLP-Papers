@@ -2,46 +2,6 @@
 
 This respository provides list of Korean NLP papers.
 
-Feel free to contribute!
-
-
-
-## Index
-
-1. [How To Contribute](#how-to-contribute)
-2. [Conference and Journal List](#conference-and-journal-list)
-3. [POS Tagging and Morpheme Analysis](#pos-tagging-and-morpheme-analysis)
-4. [Dependency Parsing](#dependency-parsing)
-5. [Named Entity Recognition](#named-entity-recognition)
-   1. [ETRI dataset](#etri-dataset)
-   2. [Other dataset](#other-dataset)
-6. [Semantic Role Labeling](#semantic-role-labeling)
-7. [Emotion Recognition](#emotion-recognition)
-8. [Sentiment Analysis](#sentiment-analysis)
-9. [Coreference Resolution](#coreference-resolution)
-10. [Question Answering](#question-answering)
-11. [Translation](#translation)
-12. [Dialogue Management](#dialogue-management)
-13. [Document Classification](#document-classification)
-14. [Document Summarization](#document-summarization)
-15. [Image Captioning](#image-captioning)
-16. [Keyword Extraction](#keyword-extraction)
-17. [Grammatical Error Correction](#grammatical-error-correction)
-18. [Relation Classification](#relation-classification)
-19. [Natural Language Generation](#natural-language-generation)
-20. [Speech Act Classification](#speech-act-classification)
-21. [Abusive Detection](#abusive-detection)
-22. [Transliteration](#transliteration)
-23. [Document Similarity](#document-similarity)
-24. [Automatic Speech Recognition](#automatic-speech-recognition)
-25. [Word Sense Disambiguation](#word-sense-disambiguation)
-26. [Tools](#tools)
-27. [Dataset](#dataset)
-
-
-
-## How To Contribute
-
 Feel free to
 
 * Add/Modify wrong or blank informations of papers.
@@ -56,6 +16,39 @@ Please consider sending PR first. It is a great help to keep this list up-to-dat
 
 Please, do not hesitate to create an issue. It always helps this repository to be informative and healthy.
 
+Enjoy, and have a good day! :)
+
+
+## Index
+
+1. [Conference and Journal List](#conference-and-journal-list)
+2. [POS Tagging and Morpheme Analysis](#pos-tagging-and-morpheme-analysis)
+3. [Dependency Parsing](#dependency-parsing)
+4. [Named Entity Recognition](#named-entity-recognition)
+   1. [ETRI dataset](#etri-dataset)
+   2. [Other dataset](#other-dataset)
+5. [Semantic Role Labeling](#semantic-role-labeling)
+6. [Emotion Recognition](#emotion-recognition)
+7. [Sentiment Analysis](#sentiment-analysis)
+8. [Coreference Resolution](#coreference-resolution)
+9. [Question Answering](#question-answering)
+10. [Translation](#translation)
+11. [Dialogue Management](#dialogue-management)
+12. [Document Classification](#document-classification)
+13. [Document Summarization](#document-summarization)
+14. [Image Captioning](#image-captioning)
+15. [Keyword Extraction](#keyword-extraction)
+16. [Grammatical Error Correction](#grammatical-error-correction)
+17. [Relation Classification](#relation-classification)
+18. [Natural Language Generation](#natural-language-generation)
+19. [Speech Act Classification](#speech-act-classification)
+20. [Abusive Detection](#abusive-detection)
+21. [Transliteration](#transliteration)
+22. [Document Similarity](#document-similarity)
+23. [Automatic Speech Recognition](#automatic-speech-recognition)
+24. [Word Sense Disambiguation](#word-sense-disambiguation)
+25. [Tools](#tools)
+26. [Dataset](#dataset)
 
 
 ## Conference and Journal List
