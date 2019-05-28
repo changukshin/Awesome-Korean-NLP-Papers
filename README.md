@@ -90,26 +90,27 @@ Enjoy, and have a good day! :)
 
 ## Dependency Parsing
 
-| Date      | Conference<br />/Journal       | Paper                                    | Metric                                   | Dataset   |
-| --------- | ------------------------------ | ---------------------------------------- | ---------------------------------------- | --------- |
-| 2008. 10. | HCLT                           | CRFs를 이용한 강건한 한국어 의존구조 분석                | UAS:87.30                                | 세종+KIB    |
-| 2008. 12. | 한국어정보학회                        | [SVM을 이용한 결정적 한국어 의존 구문분석](http://www.earticle.net/Article.aspx?sn=103226) | UAS:88.25                                | KIBS95    |
-| 2010. 3.  | 한국시뮬레이션<br />학회논문지             | [다단계 구단위화를 이용한 고속 한국어 의존구조 분석](http://ocean.kisti.re.kr/downfile/volume/simul/SMROBX/2010/v19n1/SMROBX_2010_v19n1_103.pdf) | UAS:86.01                                |           |
-| 2011. 4.  | 정보과학회논문지                       | [자질 가중치의 기계학습에 기반한 한국어 의존파싱](http://ocean.kisti.re.kr/downfile/volume/kiss/JBGHF3/2011/v38n4/JBGHF3_2011_v38n4_214.pdf) | UAS:88.15                                | 세종        |
-| 2011      | ACL-WorkShop<br />(SPMRL 2011) | [Statistical Dependency Parsing in Korean:<br />From Corpus Generation To Automatic Parsing](http://www.aclweb.org/anthology/W11-3801) | UAS:85.47<br />LAS:83.74<br />FNC:94.57  | 세종        |
-| 2013. 10. | 정보과학회논문지                       | [키어절을 이용한 새로운 한국어 구문분석](http://kiise.or.kr/e_journal/2013/10/sa/pdf/05.pdf) | F1:87.03                                 |           |
-| 2014. 1.  | 정보과학회논문지                       | [지배소 후위 집합을 이용한<br />한국어 의존 구문 분석 알고리즘](http://kiise.or.kr/e_journal/2014/1/SA/pdf/09.pdf) | UAS:87.52                                | 세종        |
-|           |                                | 신경망과 제약만족 알고리즘을 이용한 한국어 구문분석             |                                          |           |
-| 2015. 8.  | 정보과학회논문지                       | [순환 신경망을 이용한 전이 기반 한국어 의존 구문 분석](http://kiise.or.kr/e_journal/2015/8/KTCP/pdf/09.pdf) | UAS:90.33                                | KIBS      |
-| 2015. 12. | 정보과학회<br />동계학술대회              | [통계 정보를 이용한 구문분석 트리 후보의 순위화 방법](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06602443) |                                          |           |
-| 2016. 6.  | APIC-IST                       | [Improving Korean Dependency Parsing<br />performance using predicate-argument features](bozon.nlp.wo.tc/?f=158c7ea1f1d480) | UAS/자동형태:84.39<br />LAS/자동형태:81.91       | 세종        |
-|           | KCC                            | [Stack LSTM을 이용한 전이 기반 한국어 의존 파싱](www.dbpia.co.kr/Article/NODE07017626) |                                          |           |
-| 2016. 10. | HCLT                           | [Sequence-to-sequence 모델을 이용한<br />한국어 구구조 구문 분석](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo3YmJhYzdlZDdhODEwMTk3) | F1:89.03                                 | 세종        |
-| 2016. 10. | HCLT                           | [Stack LSTM 기반 한국어 의존 파싱을 위한<br />음절과 형태소의 결합 단어 표상 방법](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDpkNWY5NmJkMGRmYTFhOGE) | UAS/정답형태:93.65<br />LAS/정답형태:91.57<br />UAS/자동형태:90.44<br />LAS/자동형태:88.17 | 세종        |
-| 2016. 10. | HCLT                           | [의존 경로와 음절단위 의존 관계명 분포 기반의<br />Bidirectional LSTM CRFs를 이용한<br />한국어 의존 관계명 레이블링](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo1MjFiOWYyMTMxNjFmM2Y0) | 의존관계F1:96.01                             | 세종        |
-| 2016. 12. | 정보과학회<br />동계학술대회              | [멀티 태스크 학습 기반<br />포인터 네트워크를 이용한 한국어 의존 구문 분석](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201612&num=6763&pg=52&seGubun=&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=&searchWord=) | UAS/자동형태:91.65<br />LAS/자동형태:89.34       | 세종        |
-| 2017. 6.  | KCC                            | [Deep Biaffine Attention을 이용한 한국어 의존 파싱](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8849&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=&searchWord=) | UAS/자동형태:91.78<br />LAS/자동형태:89.76       | 세종        |
-| 2017. 6.  | KCC                            | [전이기반 순환유닛을 이용한<br />SyntaxNet 기반 한국어 의존 파싱](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=9020&pg=1&seGubun=9&seGubun1=&SnxGubun=%C6%F7%BD%BA%C5%CD&searchBy=&searchWord=) | UAS:90.33<br />LAS:88.69                 | SPMRL '14 |
+| Date      | Conference<br />/Journal       | Paper                                                        | Metric                                                       | Dataset   |
+| --------- | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- |
+| 2008. 10. | HCLT                           | CRFs를 이용한 강건한 한국어 의존구조 분석                    | UAS:87.30                                                    | 세종+KIB  |
+| 2008. 12. | 한국어정보학회                 | [SVM을 이용한 결정적 한국어 의존 구문분석](http://www.earticle.net/Article.aspx?sn=103226) | UAS:88.25                                                    | KIBS95    |
+| 2010. 3.  | 한국시뮬레이션<br />학회논문지 | [다단계 구단위화를 이용한 고속 한국어 의존구조 분석](http://ocean.kisti.re.kr/downfile/volume/simul/SMROBX/2010/v19n1/SMROBX_2010_v19n1_103.pdf) | UAS:86.01                                                    |           |
+| 2011. 4.  | 정보과학회논문지               | [자질 가중치의 기계학습에 기반한 한국어 의존파싱](http://ocean.kisti.re.kr/downfile/volume/kiss/JBGHF3/2011/v38n4/JBGHF3_2011_v38n4_214.pdf) | UAS:88.15                                                    | 세종      |
+| 2011      | ACL-WorkShop<br />(SPMRL 2011) | [Statistical Dependency Parsing in Korean:<br />From Corpus Generation To Automatic Parsing](http://www.aclweb.org/anthology/W11-3801) | UAS:85.47<br />LAS:83.74<br />FNC:94.57                      | 세종      |
+| 2013. 10. | 정보과학회논문지               | [키어절을 이용한 새로운 한국어 구문분석](http://kiise.or.kr/e_journal/2013/10/sa/pdf/05.pdf) | F1:87.03                                                     |           |
+| 2014. 1.  | 정보과학회논문지               | [지배소 후위 집합을 이용한<br />한국어 의존 구문 분석 알고리즘](http://kiise.or.kr/e_journal/2014/1/SA/pdf/09.pdf) | UAS:87.52                                                    | 세종      |
+|           |                                | 신경망과 제약만족 알고리즘을 이용한 한국어 구문분석          |                                                              |           |
+| 2015. 8.  | 정보과학회논문지               | [순환 신경망을 이용한 전이 기반 한국어 의존 구문 분석](http://kiise.or.kr/e_journal/2015/8/KTCP/pdf/09.pdf) | UAS:90.33                                                    | KIBS      |
+| 2015. 12. | 정보과학회<br />동계학술대회   | [통계 정보를 이용한 구문분석 트리 후보의 순위화 방법](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06602443) |                                                              |           |
+| 2016. 6.  | APIC-IST                       | [Improving Korean Dependency Parsing<br />performance using predicate-argument features](bozon.nlp.wo.tc/?f=158c7ea1f1d480) | UAS/자동형태:84.39<br />LAS/자동형태:81.91                   | 세종      |
+|           | KCC                            | [Stack LSTM을 이용한 전이 기반 한국어 의존 파싱](www.dbpia.co.kr/Article/NODE07017626) |                                                              |           |
+| 2016. 10. | HCLT                           | [Sequence-to-sequence 모델을 이용한<br />한국어 구구조 구문 분석](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo3YmJhYzdlZDdhODEwMTk3) | F1:89.03                                                     | 세종      |
+| 2016. 10. | HCLT                           | [Stack LSTM 기반 한국어 의존 파싱을 위한<br />음절과 형태소의 결합 단어 표상 방법](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDpkNWY5NmJkMGRmYTFhOGE) | UAS/정답형태:93.65<br />LAS/정답형태:91.57<br />UAS/자동형태:90.44<br />LAS/자동형태:88.17 | 세종      |
+| 2016. 10. | HCLT                           | [의존 경로와 음절단위 의존 관계명 분포 기반의<br />Bidirectional LSTM CRFs를 이용한<br />한국어 의존 관계명 레이블링](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo1MjFiOWYyMTMxNjFmM2Y0) | 의존관계F1:96.01                                             | 세종      |
+| 2016. 12. | 정보과학회<br />동계학술대회   | [멀티 태스크 학습 기반<br />포인터 네트워크를 이용한 한국어 의존 구문 분석](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201612&num=6763&pg=52&seGubun=&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=&searchWord=) | UAS/자동형태:91.65<br />LAS/자동형태:89.34                   | 세종      |
+| 2017. 6.  | KCC                            | [Deep Biaffine Attention을 이용한 한국어 의존 파싱](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8849&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=&searchWord=) | UAS/자동형태:91.78<br />LAS/자동형태:89.76                   | 세종      |
+| 2017. 6.  | KCC                            | [전이기반 순환유닛을 이용한<br />SyntaxNet 기반 한국어 의존 파싱](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=9020&pg=1&seGubun=9&seGubun1=&SnxGubun=%C6%F7%BD%BA%C5%CD&searchBy=&searchWord=) | UAS:90.33<br />LAS:88.69                                     | SPMRL '14 |
+| 2019. 6.  | KCC                            | BERT를 이용한 한국어 의존 구문 분석                          |                                                              |           |
 
 
 
@@ -153,24 +154,26 @@ Enjoy, and have a good day! :)
 
 ## Semantic Role Labeling
 
-| Date      | Conference<br />/Journal                 | Paper                                    | Metric                           |
-| --------- | ---------------------------------------- | ---------------------------------------- | -------------------------------- |
-| 2015      | 정보과학회논문지                                 | [Structural SVM 기반의 한국어 의미역 결정](https://www.dbpia.co.kr/Journal/ArticleDetail/NODE06097446) | F1:76.04                         |
-| 2015. 6.  | KCC                                      | [딥 러닝을 이용한 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06394187) | F1:76.96                         |
-| 2015. 12. | 한국정보과학회<br />학술대회                        | [Bidirectional LSTM CRF를 이용한<br />End-To-End 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06602453) | F1:78.16                         |
-| 2015      | 인지과학회                                    | [한국어 의미역 결정을 위한 Korean PropBank<br />확장 및 도메인 적응 기술 적용](www.dbpia.co.kr/Article/NODE06586490) |                                  |
-|           |                                          | A study of Korean Semantic Role Labeling using Word sense |                                  |
-| 2016      | Advanced Science and<br />Technology Letters | [Korean Semantic Role Labeling<br />Using Korean PropBank Frame Files](http://onlinepresent.org/proceedings/vol142_2016/15.pdf) | ACC:90.00                        |
-| 2016. 10. | HCLT                                     | [음절의 의미역 태그 분포를 이용한<br />Bidirectional LSTM CRFs 기반의 한국어 의미역 결정](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo1M2MzZGVjNDk3NjUzYzU4) | F1:66.13                         |
-| 2016. 10. | HCLT                                     | [CRF를 이용한 복수 의미역 문제 해결](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo3YTdiZTcxY2IyNzBkOTMy) | F1:74.47                         |
-| 2016. 10. | HCLT                                     | [Input-feeding RNN Search 모델과 CopyNet을 이용한 한국어 의미역 결정](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDozYzc4MTdiOWQ0OGNkNWI3) | 어절AIC:71.58<br />Label AIC:79.42 |
-| 2016. 10. | HCLT                                     | [베이지안 모형 기반 한국어 의미역 유도](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo2Yjg1M2U2NjZkYzE4NjNj) | F1*:83.26                        |
-| 2016. 12. | 정보과학회논문지                                 | [격틀 사전과 하위 범주 정보를 이용한 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07079316) | F1:78.47                         |
-| 2017. 1.  | 정보과학회논문지                                 | [Stacked Bidirectional LSTM-CRFs를 이용한<br />한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07091258) | F1:78.57                         |
-| 2017. 6.  | KCC                                      | [형태 의미 정보를 이용한 한국어 의미역 결정](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8851&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=Subject&searchWord=) | F1:77.36                         |
-| 2017. 6.  | KCC                                      | [문자 기반 LSTM CRF를 이용한 한국어 의미역 결정](https://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207765) |                                  |
-| 2017      | International Journal<br />of Database Theory<br />and Application | [A Study of Dictionary Based<br />Korean Semantic Role Labeling](http://www.sersc.org/journals/IJDTA/vol10_no7/6.pdf) |                                  |
-| 2017. 10. | HCLT                                     | [Highway BiLSTM-CRFs 모델을 이용한<br />한국어 의미역 결정](http://ocean.kisti.re.kr/IS_mvpopo213L.do?ResultTotalCNT=72&pageNo=3&pageSize=10&method=view&acnCn1=&poid=sighlt&kojic=OOGHAK&sVnc=y2017m10a&id=9&setId=&iTableId=&iDocId=&sFree=&pQuery=%28kojic%3AOOGHAK%29+AND+%28voliss_ctrl_no%3Ay2017m10a%29) |                                  |
+| Date      | Conference<br />/Journal                                     | Paper                                                        | Metric                             |
+| --------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------- |
+| 2015      | 정보과학회논문지                                             | [Structural SVM 기반의 한국어 의미역 결정](https://www.dbpia.co.kr/Journal/ArticleDetail/NODE06097446) | F1:76.04                           |
+| 2015. 6.  | KCC                                                          | [딥 러닝을 이용한 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06394187) | F1:76.96                           |
+| 2015. 12. | 한국정보과학회<br />학술대회                                 | [Bidirectional LSTM CRF를 이용한<br />End-To-End 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06602453) | F1:78.16                           |
+| 2015      | 인지과학회                                                   | [한국어 의미역 결정을 위한 Korean PropBank<br />확장 및 도메인 적응 기술 적용](www.dbpia.co.kr/Article/NODE06586490) |                                    |
+|           |                                                              | A study of Korean Semantic Role Labeling using Word sense    |                                    |
+| 2016      | Advanced Science and<br />Technology Letters                 | [Korean Semantic Role Labeling<br />Using Korean PropBank Frame Files](http://onlinepresent.org/proceedings/vol142_2016/15.pdf) | ACC:90.00                          |
+| 2016. 10. | HCLT                                                         | [음절의 의미역 태그 분포를 이용한<br />Bidirectional LSTM CRFs 기반의 한국어 의미역 결정](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo1M2MzZGVjNDk3NjUzYzU4) | F1:66.13                           |
+| 2016. 10. | HCLT                                                         | [CRF를 이용한 복수 의미역 문제 해결](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo3YTdiZTcxY2IyNzBkOTMy) | F1:74.47                           |
+| 2016. 10. | HCLT                                                         | [Input-feeding RNN Search 모델과 CopyNet을 이용한 한국어 의미역 결정](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDozYzc4MTdiOWQ0OGNkNWI3) | 어절AIC:71.58<br />Label AIC:79.42 |
+| 2016. 10. | HCLT                                                         | [베이지안 모형 기반 한국어 의미역 유도](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnwyMDE2aGNsdHxneDo2Yjg1M2U2NjZkYzE4NjNj) | F1*:83.26                          |
+| 2016. 12. | 정보과학회논문지                                             | [격틀 사전과 하위 범주 정보를 이용한 한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07079316) | F1:78.47                           |
+| 2017. 1.  | 정보과학회논문지                                             | [Stacked Bidirectional LSTM-CRFs를 이용한<br />한국어 의미역 결정](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07091258) | F1:78.57                           |
+| 2017. 6.  | KCC                                                          | [형태 의미 정보를 이용한 한국어 의미역 결정](http://www.eiric.or.kr/community/post2.php?m=view&gubun=201704&num=8851&pg=2&seGubun=9&seGubun1=&SnxGubun=%B1%B8%B5%CE&searchBy=Subject&searchWord=) | F1:77.36                           |
+| 2017. 6.  | KCC                                                          | [문자 기반 LSTM CRF를 이용한 한국어 의미역 결정](https://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207765) |                                    |
+| 2017      | International Journal<br />of Database Theory<br />and Application | [A Study of Dictionary Based<br />Korean Semantic Role Labeling](http://www.sersc.org/journals/IJDTA/vol10_no7/6.pdf) |                                    |
+| 2017. 10. | HCLT                                                         | [Highway BiLSTM-CRFs 모델을 이용한<br />한국어 의미역 결정](http://ocean.kisti.re.kr/IS_mvpopo213L.do?ResultTotalCNT=72&pageNo=3&pageSize=10&method=view&acnCn1=&poid=sighlt&kojic=OOGHAK&sVnc=y2017m10a&id=9&setId=&iTableId=&iDocId=&sFree=&pQuery=%28kojic%3AOOGHAK%29+AND+%28voliss_ctrl_no%3Ay2017m10a%29) |                                    |
+| 2019. 6.  | KCC                                                          | BERT를 이용한 한국어 의미역 결정                             |                                    |
+| 2019. 6.  | KCC                                                          | 한국어 ELMo 임베딩을 이용한 의미역 결정                      |                                    |
 
 
 
@@ -210,20 +213,22 @@ Enjoy, and have a good day! :)
 
 ## Coreference Resolution
 
-| Date      | Conference<br />/Journal | Paper                                    | Metric                         |
-| --------- | ------------------------ | ---------------------------------------- | ------------------------------ |
-| 2014. 6.  | KCC                      | [SVM 기반의 Mention Pair Model을 이용한 한국어 상호참조해결](http://insight.dbpia.co.kr/article/related.do?nodeId=NODE02444109) | F1:61.67                       |
-| 2014. 11. | 정보과학회논문지                 | [Multi-pass Sieve를 이용한 한국어 상호참조해결](http://kiise.or.kr/e_journal/2014/11/JOK/pdf/15.pdf) | MUC:58.97<br />CoNLL:60.65     |
-| 2015. 4.  | 정보과학회논문지                 | [SVM 기반의 멘션 페어 모델을 이용한한국어 상호참조해결](http://kiise.or.kr/e_journal/2015/4/KTCP/pdf/09.pdf) | CEAFE-F1:61.75                 |
-| 2015. 6.  | KCC                      | [딥러닝을 이용한 가이드 멘션페어 한국어 상호참조해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06394188) |                                |
-| 2016. 2.  | 석사학위논문                   | [규칙과 기계학습을 이용한 한국어 상호참조해결](http://cs.kangwon.ac.kr/~parkce/seminar/CoreferenceResolutionForKorean_paper.pdf) |                                |
-| 2016. 6.  | KCC                      | [시브 자질 기반 랜덤 포레스트를 이용한<br />한국어 상호참조 해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07017614) | CoNLL:62.00                    |
-| 2016. 10. | HCLT                     | [포인터 네트워크를 이용한 멘션 탐지](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07226475) | 상호참조F1:52.69<br />멘션탐지F1:80.75 |
-| 2016. 11. | 정보처리학회논문지                | [랜덤 포레스트를 이용한 한국어 상호참조 해결](http://kiss.kstudy.com/thesis/thesis-view.asp?key=3483575) |                                |
-| 2016. 12. | 정보과학회<br />동계학술대회        | [계층적 포인터 네트워크를 이용한 상호참조해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07115923) | F1:72.43                       |
-| 2017. 5.  | 정보과학회논문지                 | [포인터 네트워크를 이용한<br />한국어 대명사 상호참조해결](http://kiise.or.kr/e_journal/2017/5/JOK/pdf/07.pdf) | 81.40                          |
-| 2017. 6.  | KCC                      | [Bi-directional Multiple Timescale GRU 기반<br />포인터 네트워크를 이용한 상호참조해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207325) | F1:71.05                       |
-| 2017. 6.  | KCC                      | [k-Max Pooling을 적용한<br />Cluster-Pair Encoder를 이용한 상호참조해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207318) | MUC:64.05<br />F1:54.76        |
+| Date      | Conference<br />/Journal     | Paper                                                        | Metric                                 |
+| --------- | ---------------------------- | ------------------------------------------------------------ | -------------------------------------- |
+| 2014. 6.  | KCC                          | [SVM 기반의 Mention Pair Model을 이용한 한국어 상호참조해결](http://insight.dbpia.co.kr/article/related.do?nodeId=NODE02444109) | F1:61.67                               |
+| 2014. 11. | 정보과학회논문지             | [Multi-pass Sieve를 이용한 한국어 상호참조해결](http://kiise.or.kr/e_journal/2014/11/JOK/pdf/15.pdf) | MUC:58.97<br />CoNLL:60.65             |
+| 2015. 4.  | 정보과학회논문지             | [SVM 기반의 멘션 페어 모델을 이용한한국어 상호참조해결](http://kiise.or.kr/e_journal/2015/4/KTCP/pdf/09.pdf) | CEAFE-F1:61.75                         |
+| 2015. 6.  | KCC                          | [딥러닝을 이용한 가이드 멘션페어 한국어 상호참조해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE06394188) |                                        |
+| 2016. 2.  | 석사학위논문                 | [규칙과 기계학습을 이용한 한국어 상호참조해결](http://cs.kangwon.ac.kr/~parkce/seminar/CoreferenceResolutionForKorean_paper.pdf) |                                        |
+| 2016. 6.  | KCC                          | [시브 자질 기반 랜덤 포레스트를 이용한<br />한국어 상호참조 해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07017614) | CoNLL:62.00                            |
+| 2016. 10. | HCLT                         | [포인터 네트워크를 이용한 멘션 탐지](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07226475) | 상호참조F1:52.69<br />멘션탐지F1:80.75 |
+| 2016. 11. | 정보처리학회논문지           | [랜덤 포레스트를 이용한 한국어 상호참조 해결](http://kiss.kstudy.com/thesis/thesis-view.asp?key=3483575) |                                        |
+| 2016. 12. | 정보과학회<br />동계학술대회 | [계층적 포인터 네트워크를 이용한 상호참조해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07115923) | F1:72.43                               |
+| 2017. 5.  | 정보과학회논문지             | [포인터 네트워크를 이용한<br />한국어 대명사 상호참조해결](http://kiise.or.kr/e_journal/2017/5/JOK/pdf/07.pdf) | 81.40                                  |
+| 2017. 6.  | KCC                          | [Bi-directional Multiple Timescale GRU 기반<br />포인터 네트워크를 이용한 상호참조해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207325) | F1:71.05                               |
+| 2017. 6.  | KCC                          | [k-Max Pooling을 적용한<br />Cluster-Pair Encoder를 이용한 상호참조해결](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07207318) | MUC:64.05<br />F1:54.76                |
+| 2019. 6.  | KCC                          | BERT기반 Deep Biaffine을 이용한 한국어 상호참조해결          |                                        |
+| 2019. 6.  | KCC                          | 고차 추론을 이용한 한국어 End-to-end 신경망 기반 상호참조해결 |                                        |
 
 
 
@@ -411,7 +416,8 @@ Enjoy, and have a good day! :)
 
 ## Dataset
 
-| Date      | Conference<br />/Journal | Paper                           |
-| --------- | ------------------------ | ------------------------------- |
-| 2017. 10. | HCLT                     | 식당 예약 대화 시스템 개발을 위한 한국어 데이터셋 구축 |
+| Date      | Conference<br />/Journal | Paper                                                        |
+| --------- | ------------------------ | ------------------------------------------------------------ |
+| 2017. 10. | HCLT                     | 식당 예약 대화 시스템 개발을 위한 한국어 데이터셋 구축       |
+| 2019. 6.  | KCC                      | 다중 언어분석기 및 언어규칙 기반 반자동 구문분석 말뭉치 구축 |
 
