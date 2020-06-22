@@ -278,6 +278,16 @@ Enjoy, and have a good day! :)
 | 2017. 8.  | 컴퓨터교육학회                  | Hybrid Code Network를 이용한 한국어 식당 예약 시스템 모델 |                                          |
 | 2017. 10. | HCLT                     | [MTRNN을 이용한 한국어 대화 모델 생성](http://bozon.nlp.wo.tc/?f=159e856b9eea81)                  | BLEU4:0.22                               |
 | 2017. 10. | HCLT                     | 도메인 특정 지식을 결합한 End-to-End Learning 방식의<br />한국어 식당 예약 대화 시스템 모델 개발 | Per Response:0.95<br />Per Dialogue:0.64 |
+| 2018. 10. | HCLT                     | 생성적 적대적 신경망을 이용한 생성기반 멀티턴 챗봇 | |
+| 2018. 10. | HCLT                     | 대화 시스템에서의 자연스러운 대화를 위한 Memory Attention 기반 Breakdown Detection | |
+| 2018. 10. | HCLT                     | 기계독해 기반 질의응답 챗봇 | |
+| 2018. 10. | HCLT                     | Attention 기반의 대화 발화 예측 모델 | |
+| 2018. 10. | HCLT                     | 강건한 응답 생성을 위한 디노이징 메커니즘 기반 다중 디코더 대화 모델 | |
+| 2018. 10. | HCLT                     | 심층 순환 Q 네트워크 기반 목적 지향 대화 시스템 | |
+| 2018. 10. | HCLT                     | CNN Sequence-to-Sequence를 이용한 대화 시스템 생성 | |
+| 2018. 10. | HCLT                     | 자연어 이해를 위한 적대 학습 방법 | |
+| 2018. 10. | HCLT                     | 멀티모달 자질을 활용한 다중 화자 대화 속 인물 식별 | |
+| 2018. 10. | HCLT                     | Memory Network를 이용한 한국어 목적 대화 시스템 개발 | |
 
 
 
